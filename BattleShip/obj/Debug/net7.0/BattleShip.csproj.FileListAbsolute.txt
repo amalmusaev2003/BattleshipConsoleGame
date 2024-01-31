@@ -1,0 +1,15 @@
+/workspaces/BattleshipConsoleGame/BattleShip/bin/Debug/net7.0/BattleShip
+/workspaces/BattleshipConsoleGame/BattleShip/bin/Debug/net7.0/BattleShip.deps.json
+/workspaces/BattleshipConsoleGame/BattleShip/bin/Debug/net7.0/BattleShip.runtimeconfig.json
+/workspaces/BattleshipConsoleGame/BattleShip/bin/Debug/net7.0/BattleShip.dll
+/workspaces/BattleshipConsoleGame/BattleShip/bin/Debug/net7.0/BattleShip.pdb
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.csproj.AssemblyReference.cache
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.AssemblyInfoInputs.cache
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.AssemblyInfo.cs
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.csproj.CoreCompileInputs.cache
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.dll
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/refint/BattleShip.dll
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.pdb
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/BattleShip.genruntimeconfig.cache
+/workspaces/BattleshipConsoleGame/BattleShip/obj/Debug/net7.0/ref/BattleShip.dll
