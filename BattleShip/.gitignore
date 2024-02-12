@@ -1,11 +1,2 @@
-# Ignore all files and directories
-*
-
-# Except for specific files and directories
-!.gitignore
-!README.md
-!src/
-!assets/
-!config/
-!models/
-!ApplicationContext.cs
+database.db
+Migrations/
