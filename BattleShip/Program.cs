@@ -1,10 +1,22 @@
-﻿namespace BattleShip
+﻿using BattleShip.models;
+
+namespace BattleShip
 {
     public class Program
     {
+        // TODO
+        // [1] Убрать эксепшн из конструктора Game
+        // [2] Все строковые значения которые повторяются в коде вынести в константы
+        // [3] Записывать ходы игрока в базу данных SQLite
+
         public static void Main(string[] args)
         {
-            GameField gameField1 = new GameField("Player 1");
+            Console.WriteLine("Введите имя первого игрока: ");
+            string? player1Name = Console.ReadLine();
+            Console.WriteLine("Введите имя второго игрока: ");
+            string? player2Name = Console.ReadLine();
+
+            GameField gameField1 = new GameField(player1Name);
 
             // Какое-нибудь валидное игровое поле:
             // 4 - 0,0;0,1;0,2;0,3
@@ -21,12 +33,14 @@
             gameField1.ArrangePlayerField();
             gameField1.PrintField();
 
-            GameField gameField2 = new GameField("Player2");
+            GameField gameField2 = new GameField(player2Name);
             gameField2.ArrangePlayerField();
             gameField2.PrintField();
 
             Game battleship = new Game(gameField1, gameField2);
+            Game.checkIfArranged(gameField1, gameField2);
             battleship.Play();
+            Game.seeStatistics();
         }
     }
 }
